@@ -1,9 +1,9 @@
-#Airplane Flight Scheduler
+# Airplane Flight Scheduler
 
-##Requirements Analysis (RA)
+## Requirements Analysis (RA)
 ###Chapter 1.   Software Requirements (SR)
  
-####1.1              Introduction
+#### 1.1              Introduction
 ###### a)      Purpose
 
 The purpose of this document is to ensure that all stakeholders in this program, the Airplane Flight Scheduler, have come to an explicit agreement on the necessary requirements and functionality. This document will lay out the features that the product needs to launch.
@@ -49,7 +49,10 @@ SQL - Structured Query Language
 ###### e)      Overview
 This document contains the product features of the AFS program, the use case diagrams and detailed use cases. It also contains the functional requirements for AFS in terms of behavior as well as interfaces needed for AFS to be run.
 
-####1.2 Product Features
+
+
+
+#### 1.2 Product Features
 
 FE1: Make a reservation where you can pick from the available seats on the B757 as well as a meal plan determined by the time of day and length of flight. 
 FE2: Change current reservation to another time or change in-flight meal or seat.
@@ -57,10 +60,14 @@ FE3: Cancel current reservation and retrieve flight number to make seat availabl
 FE4: Generate a report for managers to review flight occupancy and the amount of needed meal plans.
 FE5: Select seats for current reservation
 
-####1.3     Use-Case Modeling
+
+
+
+#### 1.3     Use-Case Modeling
 ###### a)Use-case diagrams
 
 ![UML Use Case Diagram](figures/UML_use_case_diagram.png?raw=true "UML Use Case Diagram")
+ 
  
 ###### b)     Use-case descriptions
 
@@ -71,8 +78,11 @@ FE5: Select seats for current reservation
 ![UC-5](figures/use-case-5.png?raw=true "UC-5")
 ![UC-6](figures/use-case-6.png?raw=true "UC-6")
  
+ 
+ 
 
-####1.4  Functional Requirements
+#### 1.4  Functional Requirements
+
 **1. Start up Page**
  
 a)Functionality: Store reservation input into database - include name, destination, meals, seats, and luggage
@@ -214,7 +224,11 @@ e)Error Handling
 
 
  
+ 
+ 
+ 
 #### 1.5  External Interfaces
+
 **a)User Interfaces**
 Startup page
  ![Start Up](figures/startup.png?raw=true "Example")
@@ -258,13 +272,19 @@ Json-simple is a program that allows for easy and fast reading of JSON files the
 **d) 	Communications Interfaces**
 N/A
 
-####1.6  Performance Requirements 
+
+
+
+#### 1.6  Performance Requirements 
 	a)  Reliability 
 		AFS application is expected to be a reliable resource for FRU. Managing and maintaining an accurate database of flight information will improve customer experience and save manager time.
 	b)  Response Time
 		AFS application response time is not a critical need at this time. Response time is expected to be around 10 second as that is approximately the amount of time before the user becomes distracted or impatient. [1]
 
-####1.7  Other Requirements
+
+
+
+#### 1.7  Other Requirements
  
   	a) Time:
 		5 weeks
@@ -284,15 +304,22 @@ N/A
 		
 		
 		
+	
+
+
+	
 		
-		
-##Specification/Analysis Modeling	         
+## Specification/Analysis Modeling	         
 
  
+
+
+
+### Chapter 2. Specification/Analysis Modeling
  
-###Chapter 2. Specification/Analysis Modeling
  
-####2.1           Introduction
+ 
+#### 2.1           Introduction
  
 ###### a)Purpose
 
@@ -323,7 +350,7 @@ This document contains Data flow diagrams for each use case detailed in the Requ
 
  
  
-####2.2  Data Flow Diagrams
+#### 2.2  Data Flow Diagrams
  
 
 
@@ -376,7 +403,8 @@ This document contains Data flow diagrams for each use case detailed in the Requ
 
  
  
-####2.3  Class Modeling
+#### 2.3  Class Modeling
+
 ###### a)  Initial Class Diagram
 
 ![Class Diagram](figures/class-diagram.png?raw=true "Class Diagram")[1]
@@ -396,13 +424,20 @@ This document contains Data flow diagrams for each use case detailed in the Requ
 
 
 
-##Design Modeling
 
 
 
-###Chapter 3.  Design Modeling
+
+## Design Modeling
+
+
+
+
+### Chapter 3.  Design Modeling
  
-####3.1 Introduction
+ 
+ 
+#### 3.1 Introduction
 ###### a)  Purpose
 
  
@@ -431,14 +466,19 @@ Pia Wetzel completed: PSD Diagram (part 3.2) and Sequence Diagrams (part 3.3 a)
  
  
  
-####3.2. Functional Modeling
+ 
+#### 3.2. Functional Modeling
 **Program Structure Diagram**
 
  ![PSD](figures/PSD.png?raw=true "Program Structure Diagram")
 
 
  
-####3.3 OO modeling
+ 
+ 
+ 
+#### 3.3 OO modeling
+
 
 ###### a)  Sequence Diagrams
  
@@ -526,17 +566,17 @@ Pia Wetzel completed: PSD Diagram (part 3.2) and Sequence Diagrams (part 3.3 a)
 
 
 
-##Phase 4: Implementation
+## Phase 4: Implementation
 
 
  
-###Chapter 4.  Implementation
+### Chapter 4.  Implementation
 
 
 
 
  
-####4.1 Introduction
+#### 4.1 Introduction
 
 ###### a) Purpose
    	The purpose of this diagram is to translate the design from the Class Modeling and generating the code for the program.
@@ -575,7 +615,7 @@ Pia Wetzel completed: PSD Diagram (part 3.2) and Sequence Diagrams (part 3.3 a)
 
 
  
-####4.2. Implementation Environment
+#### 4.2. Implementation Environment
 
 Environment: Eclipse
 Language: Java
@@ -727,17 +767,19 @@ N/A
 
 
 
-##Validation
+
+
+## Validation
 
 
 
 
 
-###Chapter 5.  Testing
+### Chapter 5.  Testing
 
 
  
-####5.1 Introduction
+#### 5.1 Introduction
 
 
 ###### a)  Purpose 
@@ -763,7 +805,7 @@ This document was created entirely by Felicia Aubert.
 
 
 
-####5.2  Module Testing
+#### 5.2  Module Testing
 
 ###### a) Module name: getAByeTime 
 **in Class DestinationList**
@@ -1000,7 +1042,7 @@ Need to check for valid element before dereferencing
  
  
  
-####5.3 Validation Testing
+#### 5.3 Validation Testing
 TBD
 
 
@@ -1014,17 +1056,17 @@ TBD
 
 
 
-##Phase 6: Operation
+## Phase 6: Operation
 
 
 
 
 
-###Chapter 6 User Manual
+### Chapter 6 User Manual
 
 
 
-####6.1. Introduction
+#### 6.1. Introduction
 
 ###### a) Purpose 
 	
@@ -1047,22 +1089,23 @@ This document shows the performed functionality requirements in images that pert
 
  
  
-####6.2. Hardware Configuration
+ 
+#### 6.2. Hardware Configuration
 •	The software requirements are minimal with the use of either an AMD or Intel CPU. Normal entry devices such as mouse and keyboard.
  
  
  
-####6.3. System Parameters
+#### 6.3. System Parameters
 •	N/A
  
  
  
-####6.4. Operation Procedure
+#### 6.4. Operation Procedure
 •	MySQL database needs to be connected for functionality or else the software connections will return an error.
  
  
  
-####6.5. Demonstration
+#### 6.5. Demonstration
   	Show your working system.
   	Select any one requirement (feature) and execute it from start to the end.
   	Attach screen dumps for that requirement.
