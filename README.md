@@ -71,11 +71,22 @@ FE5: Select seats for current reservation
  
 ###### b)     Use-case descriptions
 
+
 ![UC-1](figures/use-case-1.png?raw=true "UC-1")
+
+
 ![UC-2](figures/use-case-2.png?raw=true "UC-2")
+
+
 ![UC-3](figures/use-case-3.png?raw=true "UC-3")
+
+
 ![UC-4](figures/use-case-4.png?raw=true "UC-4")
+
+
 ![UC-5](figures/use-case-5.png?raw=true "UC-5")
+
+
 ![UC-6](figures/use-case-6.png?raw=true "UC-6")
  
  
@@ -231,12 +242,16 @@ e)Error Handling
 
 **a)User Interfaces**
 Startup page
- ![Start Up](figures/startup.png?raw=true "Example")
+
+
+![Start Up](figures/startup.png?raw=true "Example")
 
 Manager pinpad
  
  
 ![Manager Pinpad](figures/manager.png?raw=true "Example")
+
+
 ![Manager Pinpad](figures/manager-2.png?raw=true "Example") 
  
 Reservation
